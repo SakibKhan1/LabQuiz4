@@ -1,20 +1,18 @@
 //Name: Sakib Khan
-// CSCI 135
-//Lab Quiz 4
+//Prof: Tong Yi
+//Labquiz4
 
-#include <iostream>
-#include <fstream>
+#include<iostream>
 using namespace std;
 
-int main()
-{
-    ifstream in_file;
-    in_file.open("data.txt");
-    string str;
-    while(!in_file.eof()){ 
-		in_file >> str; 
-		cout<< str <<endl; 
+int main(){
+    int arr[10] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
+    for(int i = 0; i < arr[9]; i++){
+        cout << arr[i] << endl;
     }
-    in_file.close();
-    return 0;
+    
+    
+    
+    
+    return 0; 
 }
